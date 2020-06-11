@@ -134,25 +134,8 @@ export TERM=xterm-256color  #to enable 256 colors
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-###for aplus
-export APLUS_TWITTER_KEY="pgzceVNyvyqAxhUWL2TCMViaF"
-export APLUS_TWITTER_SECRET="JuiaDiC8G8NDzdYMEaWu7pDoLeUwQHUVdzjkCYa23S0F1YlUYr"
-export GOOGLE_CLIENT_ID="411167854210-i7u7bl1a9sl4ohbmooalorbdo3n5e14d.apps.googleusercontent.com"
-export GOOGLE_CLIENT_SECRET="hBokBCPm_BS1vkYgEwVL1rHc"
-
-### for scala
-export SCALA_HOME=$HOME/scala-2.11.8
-PATH=$PATH:$SCALA_HOME/bin
-
 ##to show the name of the git branch in the current repository
-source ~/.bash_git
-
-#for rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+#source ~/.bash_git
 
 #LS command directory color output
 LS_COLORS=$LS_COLORS:'di=1;30:' ; export LS_COLORS
